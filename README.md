@@ -1,1 +1,35 @@
 # Code-Review-Checklist
+## Some of the following questions might be excluded depending on the type of software you might be dealing with, but they are meant to be as general as possible to be a good guidance during the review process.
+
+- [ ] Is any sensitive/private/confidential information logged?
+- [ ] Is any sensitive/private/confidential information disclosed?
+- [ ] Are audit trails present?
+- [ ] Are authentication and authorization mechanisms consistently enforced? Are they adequate to the intended security degree wanted?
+- [ ] Is every access to an object authorized (i.e., complete mediation)?
+- [ ] Is the least privilege principle enforced?
+- [ ] Is defense in depth applied?
+- [ ] Is segregation of duties principle ensured?
+- [ ] In case of failures, does the system fail safely?
+- [ ] Is encryption performed? Is it adequate to the security needs?
+- [ ] Are weak ciphers used?
+- [ ] Are security keys too small to provide adequate security?
+- [ ] Are certificates valid?
+- [ ] Are security keys protected from unauthorized access?
+- [ ] Are hashing mechanisms used to check for integrity when needed?
+- [ ] Are security tests in place?
+- [ ] Which is the weakest link in the security chain? Is it secure enough?
+- [ ] Are systems secure enough to expose the least attack surface as possible?
+- [ ] Are all entry points to the system secured?
+- [ ] Is input validated against well-known attacks (e.g., SQL injection, XSS injection)?
+- [ ] Does the system plan for failure?
+- [ ] Is security by obscurity in place instead of proper mechanisms?
+- [ ] Does the code contain any security bug (also language dependent)?
+- [ ] Are privacy-enhanced protocols in place when required?
+- [ ] Are the used protocols tamper resistant?
+- [ ] Is the code resistant to buffer overflow?
+- [ ] Is there any hard-coded password?
+- [ ] Is there any backdoor in the code?
+- [ ] Is the code compliant with security policies and standards?
+- [ ] Are security requirements clear?
+- [ ] Is the team well trained on security?
+- [ ] Are security response plan and processes in place?
