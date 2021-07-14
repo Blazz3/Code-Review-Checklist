@@ -42,17 +42,17 @@
 - [ ] Read documentation
 - [ ] Trying, experimenting, and reading
 
-Workflow
+### Workflow
 1. Basic recon over the app through browsing and firing payloads.
 2. Proxying with Burp and normal recon over the functions in the app.
 3. Pick up a particular function and testing business logic.
 
-Quotes
-"Curiosity is the mother of Invention"
+### Quotes
+1. "Curiosity is the mother of Invention"
 
-Before submitting any bug, ask yourself: "How can an attacker leverage this behavior into crafting a real-world or practical exploitation scenario?" and if you can’t figure out a possible scenario, then don’t submit. 
+### Before submitting any bug, ask yourself: "How can an attacker leverage this behavior into crafting a real-world or practical exploitation scenario?" and if you can’t figure out a possible scenario, then don’t submit. 
 
-ZSEANO Notes
+### ZSEANO Notes
 Hunting and finding interesting functionality
 - [ ] What is this doing? 
 - [ ] What is going on here? 
