@@ -33,3 +33,34 @@
 - [ ] Are security requirements clear?
 - [ ] Is the team well trained on security?
 - [ ] Are security response plan and processes in place?
+
+## Notes on approach a target
+
+- [ ] Subdomain enumeration
+- [ ] Discovery files/folders/endpoints/functions using a generic wordlist and a target/technology specific wordlist
+- [ ] Javascript files
+- [ ] Read documentation
+- [ ] Trying, experimenting, and reading
+
+Workflow
+1. Basic recon over the app through browsing and firing payloads.
+2. Proxying with Burp and normal recon over the functions in the app.
+3. Pick up a particular function and testing business logic.
+
+Quotes
+"Curiosity is the mother of Invention"
+
+Before submitting any bug, ask yourself: "How can an attacker leverage this behavior into crafting a real-world or practical exploitation scenario?" and if you can’t figure out a possible scenario, then don’t submit. 
+
+ZSEANO Notes
+Hunting and finding interesting functionality
+- [ ] What is this doing? 
+- [ ] What is going on here? 
+- [ ] Can I do anything here?
+- [ ] What happens if I do this? 
+- [ ] How did they prevent against?
+- [ ]  What did the developers do?
+- [ ] I wonder if the devs thought about XYZ when creating this feature
+- [ ] I notice a website is using a new framework to protect from XSS, I will stop looking for XSS and focus on what MAY be vulnerable
+- [ ] I'd also do research into how they've protected from something like XSS
+- [ ] And do opposite things which application saying.
